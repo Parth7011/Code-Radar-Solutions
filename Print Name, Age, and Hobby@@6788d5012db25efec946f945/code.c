@@ -2,8 +2,9 @@
 
 int main() 
 {   
-    char a,b,c;
-    scanf("%c %c %c",&a,&b,&c);
-    printf("Name: %c\nAge: %c\nHobby: %c",a,b,c);
+    char a,c;
+    int b;
+    scanf("%c %d %c",&a,&b,&c);
+    printf("Name: %c\nAge: %d\nHobby: %c",a,b,c);
     return 0;
 }
