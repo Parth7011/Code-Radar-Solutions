@@ -6,6 +6,6 @@ int main() {
     scanf("%d %d",&a,&b);
     (a==b)?
     printf("True"):
-    printf("Flase");
+    printf("False");
     return 0;
 }
