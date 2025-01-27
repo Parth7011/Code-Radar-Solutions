@@ -3,8 +3,7 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    (a|b)?;
-    printf("True");
-    printf("False");
+    int c=a|b
+    printf("%d"c);
     return 0;
 }
