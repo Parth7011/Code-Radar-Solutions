@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     float a;
-    scanf("%d",&a);
+    scanf("%f",&a);
 
     if ((a % 4 == 0 && a % 100 != 0)||(a % 400 == 0))
     {
