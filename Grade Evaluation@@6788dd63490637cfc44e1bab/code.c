@@ -16,7 +16,7 @@ int main(){
         break;
 
         case 'D':
-        pritnf("Below Average");
+        printf("Below Average");
         break;
 
         case 'F':
