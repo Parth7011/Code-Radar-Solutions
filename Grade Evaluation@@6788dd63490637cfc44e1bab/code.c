@@ -26,7 +26,6 @@ int main(){
         default:
         printf("Invalid grade");
         break;
-
     }
     return 0;
 }
