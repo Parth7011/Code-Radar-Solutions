@@ -18,7 +18,7 @@ int main(){
 
         case '/':
         if (b!=0){
-            printf("%.2f",a/b);
+            printf("%.0f",a/b);
         }
         else{
             printf("error");
