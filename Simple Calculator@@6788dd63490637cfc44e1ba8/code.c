@@ -1,24 +1,24 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char choice;
-    scanf("%d %d%c",&a,&,&choice);
+    scanf("%f %f %c",&a,&b,&choice);
     switch(choice){
         case '+':
-        printf("%d",a+b);
+        printf("%.2f",a+b);
         break;
 
         case '-':
-        printf("%d",a-b);
+        printf("%.2f",a-b);
         break;
 
         case '*':
-        printf("%d",a*b);
+        printf("%.2f",a*b);
         break;
 
         case '/':
         if (b!=0){
-            printf("%d",a/b);
+            printf("%.2f",a/b);
         }
         else{
             printf("error");
