@@ -5,15 +5,15 @@ int main(){
     scanf("%f %f %c",&a,&b,&choice);
     switch(choice){
         case '+':
-        printf("%.2f",a+b);
+        printf("%.0f",a+b);
         break;
 
         case '-':
-        printf("%.2f",a-b);
+        printf("%.0f",a-b);
         break;
 
         case '*':
-        printf("%.2f",a*b);
+        printf("%.0f",a*b);
         break;
 
         case '/':
