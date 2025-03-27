@@ -5,7 +5,8 @@ int main() {
     scanf("%d", &N);
 
     for (int i = 1; i <= N; i++) {
-        // Printing spaces
+        // Printing spaces as spaces are decreasind down the rows
+        // while the stars are increasing down the row
         for (int j = 1; j <= N - i; j++) {
             printf(" ");  // Printing spaces
         }
