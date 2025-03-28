@@ -5,11 +5,11 @@ int main() {
     
     scanf("%d", &N);
 
-    for (int i = 1; i <= N; i++) {  // Row loop
-        for (char ch = 'A'; ch < 'A' + i; ch++) {  // Alphabet loop
+    for (int i = 1; i <= N; i++) {  
+        for (char ch = 'A'; ch < 'A' + i; ch++) {  
             printf("%c ", ch);
         }
-        printf("\n");  // Move to the next line
+        printf("\n"); 
     }
 
     return 0;
