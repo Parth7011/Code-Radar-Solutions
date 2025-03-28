@@ -13,7 +13,7 @@ int main() {
                 printf(" ");
             }
         }
-        printf("\n"); // Move to the next line
+        printf("\n"); 
     }
 
     return 0;
