@@ -2,7 +2,7 @@
 
 int main() {
     int N;
-    printf("Enter the size of the diamond: ");
+    
     scanf("%d", &N);
 
     // Upper part of the diamond
